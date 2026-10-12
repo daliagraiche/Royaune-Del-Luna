@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royaume Del Luna</title>
+    <link rel="stylesheet" href="./Contact.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./Contact.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- header start -->
+    <header>
+        <div id="navbarre">
+          <img src="./Images/logo.PNG" alt="Royaume Del Luna logo">
+          <nav>
+            <ul>
+                <li><a href="./Accueil.html">Accueil</a></li>
+                <li><a href="./Menu.html">Menu</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+    <!-- header end -->
+    <section id="contact">
+    <!-- contact start -->
+      <div class="milieu">
+        <div class="contact-contenu">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6392.6145387035485!2d2.9653761754430263!3d36.76319553831449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fb20a92cfe02b%3A0x5417f83e218b9393!2sHydra!5e0!3m2!1sfr!2sdz!4v1715244772103!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <!--Order-->
+
+    <div class="order" id="Order">
+      <h3>Placez votre Ordre :</h3>
+
+      <div class="order_main">
+          <form action="#">
+
+              <div class="input">
+                  <p>Nom</p>
+                  <input type="text" placeholder="votre nom">
+              </div>
+
+              <div class="input">
+                  <p>Email</p>
+                  <input type="email" placeholder="votre email">
+              </div>
+
+              <div class="input">
+                  <p>Numero</p>
+                  <input placeholder="votre numero">
+              </div>
+
+              <div class="input">
+                  <p>Combien</p>
+                  <input type="number" placeholder="Combien d'ordres">
+              </div>
+
+              <div class="input">
+                  <p>Votre ordre</p>
+                  <input placeholder="nom du plat">
+              </div>
+
+              <div class="input">
+                  <p>Adresse</p>
+                  <input placeholder="votre Adresse">
+              </div>
+
+              <a href="#" class="order_btn">Placez votre ordre</a>
+
+          </form>
+      </div>
+                  <!-- star rating -->
+                  <div class="starbox">
+                    <h3>Rate us</h3>
+                    <form action="#">
+                        <div class="card-star">
+                            <span onclick="rating(1)"
+                                  class="star">★
+                            </span>
+                            <span onclick="rating(2)"
+                                  class="star">★
+                            </span>
+                            <span onclick="rating(3)"
+                                  class="star">★
+                            </span>
+                            <span onclick="rating(4)"
+                                  class="star">★
+                            </span>
+                            <span onclick="rating(5)"
+                                  class="star">★
+                            </span>
+                        </div>
+                        <script src="./Contact.js"></script>
+                        <textarea name="opinion" placeholder="Votre opinion..."></textarea>
+                        <div class="btn-group">
+                            <button type="submit" class="btn submit">Envoyer</button>
+                            <button class="btn cancel">Annuler</button>
+                        </div>
+                    </form>
+                </div>
+    <script src="./Contact.js"></script>
+
+  </div>
+</div>
+</div>
+    <!-- contact end -->
+  
+    <!--footer start-->
+    <footer>
+      <div class="footer_main">
+
+          <div class="footer_tag">
+              <h2>Location</h2>
+              <p>36.742672, 3.029219
+                64-65 Rue des Jardins, Hydra</p>
+          </div>
+
+          <div class="footer_tag">
+              <h2>Quick Link</h2>
+              <a href="./Accueil.html"><p>Accueil</p></a>
+              <a href="./Menu.html"><p>Menu</p></a>
+              <a href="./Contact.html"><p>Contact</p></a>
+          </div>
+
+          <div class="footer_tag">
+              <h2>Contact</h2>
+              <p>+213 0567452789</p>
+              <p>026472060</p>
+              <p>royaumedelluna@gmail.com</p>
+              <p>royaumedelluna@hotmail.com</p>
+          </div>
+
+          <div class="footer_tag">
+              <h2>Notre Service</h2>
+              <p>Livraison Rapide</p>
+              <p>Paiement facile</p>
+              <p>24 x 7 Service</p>
+          </div>
+
+          <div class="footer_tag">
+              <h2>Follows</h2>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+
+      </div>
+  </footer>
+ </section>
+    <!-- footer end-->
+</body>
+</html>
