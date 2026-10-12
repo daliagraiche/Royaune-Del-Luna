@@ -30,6 +30,6 @@ No installation is required.
 
 This project was created as a personal web development project to practice front-end development and build a multi-page restaurant website.
 
-## 👩‍💻 Author
+## Author
 
 Developed as a personal project.
